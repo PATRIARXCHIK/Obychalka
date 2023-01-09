@@ -11,11 +11,11 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindowtask1(object):
-    def setupUi(self, MainWindow_task1):
-        MainWindow_task1.setObjectName("MainWindow")
-        MainWindow_task1.resize(816, 600)
-        self.centralwidget = QtWidgets.QWidget(MainWindow_task1)
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(758, 546)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(310, 0, 161, 31))
@@ -139,16 +139,25 @@ class Ui_MainWindowtask1(object):
         self.checkBox_10.setText("")
         self.checkBox_10.setObjectName("checkBox_10")
         MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(MainWindow_task1)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 816, 21))
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 758, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
-        self.statusbar = QtWidgets.QStatusBar(MainWindow_task1)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
 
-        self.retranslateUi(MainWindow_task1)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow_task1)
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        MainWindow.setTabOrder(self.checkBox, self.checkBox_2)
+        MainWindow.setTabOrder(self.checkBox_2, self.checkBox_3)
+        MainWindow.setTabOrder(self.checkBox_3, self.checkBox_4)
+        MainWindow.setTabOrder(self.checkBox_4, self.checkBox_5)
+        MainWindow.setTabOrder(self.checkBox_5, self.checkBox_6)
+        MainWindow.setTabOrder(self.checkBox_6, self.checkBox_7)
+        MainWindow.setTabOrder(self.checkBox_7, self.checkBox_8)
+        MainWindow.setTabOrder(self.checkBox_8, self.checkBox_9)
+        MainWindow.setTabOrder(self.checkBox_9, self.checkBox_10)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -163,24 +172,3 @@ class Ui_MainWindowtask1(object):
         self.label_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Байкал - самое глубокое</span></p><p align=\"center\"><span style=\" font-size:14pt;\"> пресное озеро</span></p></body></html>"))
         self.label_8.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Квадрат гипотенузы равен сумме</span></p><p align=\"center\"><span style=\" font-size:14pt;\"> квадратов катетов</span></p></body></html>"))
         self.label_9.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Как собрать радиоприемник</span></p></body></html>"))
-
-if __name__ == '__main__':
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindowtask1()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-
-    sys.exit(app.exec_())
-"""
-class task1_window:
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindowtask1()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-
-    sys.exit(app.exec_())
-"""
