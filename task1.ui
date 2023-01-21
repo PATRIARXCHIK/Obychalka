@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>MainWindow1</class>
+ <widget class="QMainWindow" name="MainWindow1">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>758</width>
-    <height>546</height>
+    <width>815</width>
+    <height>574</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -111,7 +111,7 @@
       <x>320</x>
       <y>100</y>
       <width>31</width>
-      <height>481</height>
+      <height>331</height>
      </rect>
     </property>
     <property name="orientation">
@@ -124,7 +124,7 @@
       <x>540</x>
       <y>100</y>
       <width>20</width>
-      <height>461</height>
+      <height>331</height>
      </rect>
     </property>
     <property name="orientation">
@@ -255,7 +255,7 @@
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>260</y>
+      <y>270</y>
       <width>70</width>
       <height>17</height>
      </rect>
@@ -335,20 +335,7 @@
       <x>740</x>
       <y>100</y>
       <width>20</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QScrollBar" name="verticalScrollBar">
-    <property name="geometry">
-     <rect>
-      <x>790</x>
-      <y>0</y>
-      <width>16</width>
-      <height>561</height>
+      <height>331</height>
      </rect>
     </property>
     <property name="orientation">
@@ -407,13 +394,52 @@
      <string/>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Назад</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>440</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ответ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>440</y>
+      <width>221</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;Текст&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>758</width>
+     <width>815</width>
      <height>21</height>
     </rect>
    </property>
