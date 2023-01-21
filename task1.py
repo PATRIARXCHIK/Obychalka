@@ -12,6 +12,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_MainWindow1(object):
+
     def setupUi(self, MainWindow1):
         MainWindow1.setObjectName("MainWindow1")
         MainWindow1.resize(815, 574)
@@ -179,4 +180,17 @@ class Ui_MainWindow1(object):
         self.label_9.setText(_translate("MainWindow1", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Как собрать радиоприемник</span></p></body></html>"))
         self.pushButton.setText(_translate("MainWindow1", "Назад"))
         self.pushButton_2.setText(_translate("MainWindow1", "Ответ"))
-        self.label_10.setText(_translate("MainWindow1", "<html><head/><body><p><span style=\" font-size:20pt;\">Текст</span></p></body></html>"))
+        self.label_10.setText(_translate("MainWindow1", "<html><head/><body><p><span style=\" font-size:20pt;\">Верно</span></p></body></html>"))
+
+if __name__ == '__main__':
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow1()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    def on_click():
+        print("OK")
+
+    ui.pushButton.clicked.connect(on_click)
+    sys.exit(app.exec_())
