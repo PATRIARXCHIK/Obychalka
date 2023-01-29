@@ -44,8 +44,8 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton.setText(_translate("MainWindow", "Виды и свойства информации (Тест 1)"))
         self.pushButton_2.setText(_translate("MainWindow", "Виды и свойства информации (Тест 2)"))
-
-if __name__ == '__main__':
+"""
+if __name__ == 'main':
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
@@ -57,3 +57,4 @@ if __name__ == '__main__':
 
     ui.pushButton.clicked.connect(on_click)
     sys.exit(app.exec_())
+"""

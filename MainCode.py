@@ -8,7 +8,7 @@ import sys
 mw = 'main'
 
 
-def MainCodeClass():
+def MainCodeClass(mw):
 
     while mw == 'main':
         from main import Ui_MainWindow
@@ -47,4 +47,4 @@ def MainCodeClass():
         ui.pushButton_2.clicked.connect(on_click1)
         sys.exit(app.exec_())
 
-MainCodeClass()
+MainCodeClass(mw)

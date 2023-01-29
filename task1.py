@@ -182,7 +182,8 @@ class Ui_MainWindow1(object):
         self.pushButton_2.setText(_translate("MainWindow1", "Ответ"))
         self.label_10.setText(_translate("MainWindow1", "<html><head/><body><p><span style=\" font-size:20pt;\">Верно</span></p></body></html>"))
 
-if __name__ == '__main__':
+"""
+if __name__ == 'task1':
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
@@ -194,3 +195,4 @@ if __name__ == '__main__':
 
     ui.pushButton.clicked.connect(on_click)
     sys.exit(app.exec_())
+"""
