@@ -154,7 +154,7 @@ class Ui_MainWindow(object):
         self.label_8.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Выбери 1 из 4 ответов</span></p></body></html>"))
         self.pushButton_2.setText(_translate("MainWindow", "Назад"))
 
-"""        
+
 if __name__ == 'task2':
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -167,4 +167,3 @@ if __name__ == 'task2':
 
     ui.pushButton.clicked.connect(on_click3)
     sys.exit(app.exec_())
-"""

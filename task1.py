@@ -13,7 +13,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow1(object):
 
-    def setupUi(self, MainWindow1):
+    def setupUi1(self, MainWindow1):
         MainWindow1.setObjectName("MainWindow1")
         MainWindow1.resize(815, 574)
         self.centralwidget = QtWidgets.QWidget(MainWindow1)
@@ -153,7 +153,7 @@ class Ui_MainWindow1(object):
         self.statusbar.setObjectName("statusbar")
         MainWindow1.setStatusBar(self.statusbar)
 
-        self.retranslateUi(MainWindow1)
+        self.retranslateUi1(MainWindow1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow1)
         MainWindow1.setTabOrder(self.checkBox, self.checkBox_2)
         MainWindow1.setTabOrder(self.checkBox_2, self.checkBox_3)
@@ -165,7 +165,7 @@ class Ui_MainWindow1(object):
         MainWindow1.setTabOrder(self.checkBox_8, self.checkBox_9)
         MainWindow1.setTabOrder(self.checkBox_9, self.checkBox_10)
 
-    def retranslateUi(self, MainWindow1):
+    def retranslateUi1(self, MainWindow1):
         _translate = QtCore.QCoreApplication.translate
         MainWindow1.setWindowTitle(_translate("MainWindow1", "MainWindow"))
         self.label.setText(_translate("MainWindow1", "<html><head/><body><p><span style=\" font-size:18pt;\">Проверь себя!</span></p></body></html>"))
