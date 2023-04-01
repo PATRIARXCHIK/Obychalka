@@ -48,3 +48,15 @@ class Ui_MainWindow(object):
         self.pushButton.setText(_translate("MainWindow", "Виды и свойства информации (Тест 1)"))
         self.pushButton_2.setText(_translate("MainWindow", "Виды и свойства информации (Тест 2)"))
         self.pushButton_3.setText(_translate("MainWindow", "Информационный объём фрагмента текста"))
+
+if __name__ == '__main__':
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    def on_click(self):
+        print("OK")
+    ui.pushButton.clicked.connect(on_click)
+    sys.exit(app.exec_())
