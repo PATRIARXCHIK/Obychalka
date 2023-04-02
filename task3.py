@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(800, 600)
+        MainWindow.resize(868, 575)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
@@ -38,19 +38,9 @@ class Ui_MainWindow(object):
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(20, 270, 61, 41))
         self.label_6.setObjectName("label_6")
-        self.line = QtWidgets.QFrame(self.centralwidget)
-        self.line.setGeometry(QtCore.QRect(140, 180, 20, 151))
-        self.line.setFrameShape(QtWidgets.QFrame.VLine)
-        self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line.setObjectName("line")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_2.setGeometry(QtCore.QRect(130, 460, 181, 51))
         self.pushButton_2.setObjectName("pushButton_2")
-        self.line_2 = QtWidgets.QFrame(self.centralwidget)
-        self.line_2.setGeometry(QtCore.QRect(0, 315, 151, 21))
-        self.line_2.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_2.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_2.setObjectName("line_2")
         self.label_7 = QtWidgets.QLabel(self.centralwidget)
         self.label_7.setGeometry(QtCore.QRect(160, 170, 101, 31))
         self.label_7.setObjectName("label_7")
@@ -76,7 +66,7 @@ class Ui_MainWindow(object):
         self.label_12.setGeometry(QtCore.QRect(420, 270, 16, 16))
         self.label_12.setObjectName("label_12")
         self.plainTextEdit_3 = QtWidgets.QPlainTextEdit(self.centralwidget)
-        self.plainTextEdit_3.setGeometry(QtCore.QRect(310, 260, 101, 31))
+        self.plainTextEdit_3.setGeometry(QtCore.QRect(310, 260, 101, 41))
         self.plainTextEdit_3.setObjectName("plainTextEdit_3")
         self.plainTextEdit_4 = QtWidgets.QPlainTextEdit(self.centralwidget)
         self.plainTextEdit_4.setGeometry(QtCore.QRect(440, 260, 91, 31))
@@ -120,9 +110,24 @@ class Ui_MainWindow(object):
         self.label_20 = QtWidgets.QLabel(self.centralwidget)
         self.label_20.setGeometry(QtCore.QRect(370, 460, 231, 41))
         self.label_20.setObjectName("label_20")
+        self.label_21 = QtWidgets.QLabel(self.centralwidget)
+        self.label_21.setGeometry(QtCore.QRect(-10, 269, 121, 71))
+        self.label_21.setObjectName("label_21")
+        self.label_22 = QtWidgets.QLabel(self.centralwidget)
+        self.label_22.setGeometry(QtCore.QRect(110, 170, 47, 231))
+        self.label_22.setObjectName("label_22")
+        self.label_23 = QtWidgets.QLabel(self.centralwidget)
+        self.label_23.setGeometry(QtCore.QRect(0, 379, 791, 41))
+        self.label_23.setObjectName("label_23")
+        self.label_24 = QtWidgets.QLabel(self.centralwidget)
+        self.label_24.setGeometry(QtCore.QRect(790, 170, 47, 231))
+        self.label_24.setObjectName("label_24")
+        self.label_25 = QtWidgets.QLabel(self.centralwidget)
+        self.label_25.setGeometry(QtCore.QRect(0, 150, 791, 41))
+        self.label_25.setObjectName("label_25")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 868, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -157,3 +162,56 @@ class Ui_MainWindow(object):
         self.label_18.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:14pt; font-weight:600;\">I =</span></p></body></html>"))
         self.label_19.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Мегабайт</span></p></body></html>"))
         self.label_20.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:14pt;\">Ответ</span></p></body></html>"))
+        self.label_21.setText(_translate("MainWindow", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
+        self.label_22.setText(_translate("MainWindow", "┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+""))
+        self.label_23.setText(_translate("MainWindow", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
+        self.label_24.setText(_translate("MainWindow", "┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+""))
+        self.label_25.setText(_translate("MainWindow", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
