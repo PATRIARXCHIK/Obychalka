@@ -1,0 +1,24 @@
+    def __init__(self):
+        super(main, self).__init__()
+        _translate = QtCore.QCoreApplication.translate
+        self.setWindowTitle('main')
+        self.setMinimumWidth(800)
+        self.setMinimumHeight(600)
+        self.pushButton_m = QtWidgets.QPushButton(self)
+        self.pushButton_m.setGeometry(QtCore.QRect(70, 30, 251, 31))
+        self.pushButton_m.setObjectName("pushButton")
+        self.pushButton_2_m = QtWidgets.QPushButton(self)
+        self.pushButton_2_m.setGeometry(QtCore.QRect(390, 30, 251, 31))
+        self.pushButton_2_m.setObjectName("pushButton_2")
+        self.pushButton_3_m = QtWidgets.QPushButton(self)
+        self.pushButton_3_m.setGeometry(QtCore.QRect(70, 80, 571, 31))
+        self.pushButton_3_m.setObjectName("pushButton_3")
+        self.menubar = QtWidgets.QMenuBar(self)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
+        self.menubar.setObjectName("menubar")
+
+        _translate = QtCore.QCoreApplication.translate
+        self.setWindowTitle(_translate("main", "MainWindow"))
+        self.pushButton_m.setText(_translate("main", "Виды и свойства информации (Тест 1)"))
+        self.pushButton_2_m.setText(_translate("main", "Виды и свойства информации (Тест 2)"))
+        self.pushButton_3_m.setText(_translate("main", "Информационный объём фрагмента текста"))

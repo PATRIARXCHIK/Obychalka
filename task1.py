@@ -12,10 +12,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_MainWindow1(object):
-
-    def setupUi1(self, MainWindow1):
+    def setupUi(self, MainWindow1):
         MainWindow1.setObjectName("MainWindow1")
-        MainWindow1.resize(815, 574)
+        MainWindow1.resize(847, 697)
         self.centralwidget = QtWidgets.QWidget(MainWindow1)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
@@ -33,31 +32,6 @@ class Ui_MainWindow1(object):
         self.label_5 = QtWidgets.QLabel(self.centralwidget)
         self.label_5.setGeometry(QtCore.QRect(10, 150, 321, 31))
         self.label_5.setObjectName("label_5")
-        self.line = QtWidgets.QFrame(self.centralwidget)
-        self.line.setGeometry(QtCore.QRect(0, 130, 751, 21))
-        self.line.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line.setObjectName("line")
-        self.line_2 = QtWidgets.QFrame(self.centralwidget)
-        self.line_2.setGeometry(QtCore.QRect(0, 82, 751, 31))
-        self.line_2.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_2.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_2.setObjectName("line_2")
-        self.line_3 = QtWidgets.QFrame(self.centralwidget)
-        self.line_3.setGeometry(QtCore.QRect(320, 100, 31, 331))
-        self.line_3.setFrameShape(QtWidgets.QFrame.VLine)
-        self.line_3.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_3.setObjectName("line_3")
-        self.line_4 = QtWidgets.QFrame(self.centralwidget)
-        self.line_4.setGeometry(QtCore.QRect(540, 100, 20, 331))
-        self.line_4.setFrameShape(QtWidgets.QFrame.VLine)
-        self.line_4.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_4.setObjectName("line_4")
-        self.line_5 = QtWidgets.QFrame(self.centralwidget)
-        self.line_5.setGeometry(QtCore.QRect(0, 180, 751, 20))
-        self.line_5.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_5.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_5.setObjectName("line_5")
         self.checkBox = QtWidgets.QCheckBox(self.centralwidget)
         self.checkBox.setGeometry(QtCore.QRect(440, 160, 16, 17))
         self.checkBox.setText("")
@@ -69,11 +43,6 @@ class Ui_MainWindow1(object):
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(0, 200, 331, 31))
         self.label_6.setObjectName("label_6")
-        self.line_6 = QtWidgets.QFrame(self.centralwidget)
-        self.line_6.setGeometry(QtCore.QRect(-3, 220, 751, 41))
-        self.line_6.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_6.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_6.setObjectName("line_6")
         self.checkBox_3 = QtWidgets.QCheckBox(self.centralwidget)
         self.checkBox_3.setGeometry(QtCore.QRect(440, 210, 70, 17))
         self.checkBox_3.setText("")
@@ -82,11 +51,6 @@ class Ui_MainWindow1(object):
         self.checkBox_4.setGeometry(QtCore.QRect(640, 210, 70, 17))
         self.checkBox_4.setText("")
         self.checkBox_4.setObjectName("checkBox_4")
-        self.line_7 = QtWidgets.QFrame(self.centralwidget)
-        self.line_7.setGeometry(QtCore.QRect(0, 300, 751, 16))
-        self.line_7.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_7.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_7.setObjectName("line_7")
         self.label_7 = QtWidgets.QLabel(self.centralwidget)
         self.label_7.setGeometry(QtCore.QRect(0, 240, 331, 61))
         self.label_7.setObjectName("label_7")
@@ -98,11 +62,6 @@ class Ui_MainWindow1(object):
         self.checkBox_6.setGeometry(QtCore.QRect(640, 270, 70, 17))
         self.checkBox_6.setText("")
         self.checkBox_6.setObjectName("checkBox_6")
-        self.line_8 = QtWidgets.QFrame(self.centralwidget)
-        self.line_8.setGeometry(QtCore.QRect(0, 360, 751, 31))
-        self.line_8.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_8.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_8.setObjectName("line_8")
         self.label_8 = QtWidgets.QLabel(self.centralwidget)
         self.label_8.setGeometry(QtCore.QRect(6, 312, 321, 61))
         self.label_8.setObjectName("label_8")
@@ -114,46 +73,66 @@ class Ui_MainWindow1(object):
         self.checkBox_8.setGeometry(QtCore.QRect(640, 330, 70, 17))
         self.checkBox_8.setText("")
         self.checkBox_8.setObjectName("checkBox_8")
-        self.line_9 = QtWidgets.QFrame(self.centralwidget)
-        self.line_9.setGeometry(QtCore.QRect(740, 100, 20, 331))
-        self.line_9.setFrameShape(QtWidgets.QFrame.VLine)
-        self.line_9.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_9.setObjectName("line_9")
         self.label_9 = QtWidgets.QLabel(self.centralwidget)
         self.label_9.setGeometry(QtCore.QRect(10, 380, 321, 41))
         self.label_9.setObjectName("label_9")
-        self.line_10 = QtWidgets.QFrame(self.centralwidget)
-        self.line_10.setGeometry(QtCore.QRect(0, 420, 751, 20))
-        self.line_10.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_10.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_10.setObjectName("line_10")
         self.checkBox_9 = QtWidgets.QCheckBox(self.centralwidget)
         self.checkBox_9.setGeometry(QtCore.QRect(440, 390, 70, 17))
         self.checkBox_9.setText("")
         self.checkBox_9.setObjectName("checkBox_9")
         self.checkBox_10 = QtWidgets.QCheckBox(self.centralwidget)
-        self.checkBox_10.setGeometry(QtCore.QRect(640, 390, 70, 17))
+        self.checkBox_10.setGeometry(QtCore.QRect(640, 390, 31, 17))
         self.checkBox_10.setText("")
         self.checkBox_10.setObjectName("checkBox_10")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(10, 10, 91, 31))
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(180, 440, 171, 81))
+        self.pushButton_2.setGeometry(QtCore.QRect(170, 480, 171, 81))
         self.pushButton_2.setObjectName("pushButton_2")
         self.label_10 = QtWidgets.QLabel(self.centralwidget)
-        self.label_10.setGeometry(QtCore.QRect(440, 440, 221, 81))
+        self.label_10.setGeometry(QtCore.QRect(440, 480, 221, 81))
         self.label_10.setObjectName("label_10")
+        self.label_11 = QtWidgets.QLabel(self.centralwidget)
+        self.label_11.setGeometry(QtCore.QRect(0, 90, 761, 21))
+        self.label_11.setObjectName("label_11")
+        self.label_12 = QtWidgets.QLabel(self.centralwidget)
+        self.label_12.setGeometry(QtCore.QRect(0, 130, 751, 20))
+        self.label_12.setObjectName("label_12")
+        self.label_13 = QtWidgets.QLabel(self.centralwidget)
+        self.label_13.setGeometry(QtCore.QRect(0, 179, 751, 21))
+        self.label_13.setObjectName("label_13")
+        self.label_14 = QtWidgets.QLabel(self.centralwidget)
+        self.label_14.setGeometry(QtCore.QRect(0, 220, 751, 41))
+        self.label_14.setObjectName("label_14")
+        self.label_15 = QtWidgets.QLabel(self.centralwidget)
+        self.label_15.setGeometry(QtCore.QRect(0, 280, 761, 51))
+        self.label_15.setObjectName("label_15")
+        self.label_16 = QtWidgets.QLabel(self.centralwidget)
+        self.label_16.setGeometry(QtCore.QRect(0, 349, 751, 51))
+        self.label_16.setObjectName("label_16")
+        self.label_17 = QtWidgets.QLabel(self.centralwidget)
+        self.label_17.setGeometry(QtCore.QRect(0, 420, 761, 20))
+        self.label_17.setObjectName("label_17")
+        self.label_18 = QtWidgets.QLabel(self.centralwidget)
+        self.label_18.setGeometry(QtCore.QRect(750, 100, 16, 331))
+        self.label_18.setObjectName("label_18")
+        self.label_19 = QtWidgets.QLabel(self.centralwidget)
+        self.label_19.setGeometry(QtCore.QRect(550, 100, 21, 331))
+        self.label_19.setObjectName("label_19")
+        self.label_20 = QtWidgets.QLabel(self.centralwidget)
+        self.label_20.setGeometry(QtCore.QRect(327, 102, 20, 331))
+        self.label_20.setObjectName("label_20")
+        self.label_21 = QtWidgets.QLabel(self.centralwidget)
+        self.label_21.setGeometry(QtCore.QRect(-4, 102, 16, 331))
+        self.label_21.setObjectName("label_21")
         MainWindow1.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow1)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 815, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 847, 21))
         self.menubar.setObjectName("menubar")
         MainWindow1.setMenuBar(self.menubar)
-        self.statusbar = QtWidgets.QStatusBar(MainWindow1)
-        self.statusbar.setObjectName("statusbar")
-        MainWindow1.setStatusBar(self.statusbar)
 
-        self.retranslateUi1(MainWindow1)
+        self.retranslateUi(MainWindow1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow1)
         MainWindow1.setTabOrder(self.checkBox, self.checkBox_2)
         MainWindow1.setTabOrder(self.checkBox_2, self.checkBox_3)
@@ -165,7 +144,7 @@ class Ui_MainWindow1(object):
         MainWindow1.setTabOrder(self.checkBox_8, self.checkBox_9)
         MainWindow1.setTabOrder(self.checkBox_9, self.checkBox_10)
 
-    def retranslateUi1(self, MainWindow1):
+    def retranslateUi(self, MainWindow1):
         _translate = QtCore.QCoreApplication.translate
         MainWindow1.setWindowTitle(_translate("MainWindow1", "MainWindow"))
         self.label.setText(_translate("MainWindow1", "<html><head/><body><p><span style=\" font-size:18pt;\">Проверь себя!</span></p></body></html>"))
@@ -180,19 +159,179 @@ class Ui_MainWindow1(object):
         self.label_9.setText(_translate("MainWindow1", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Как собрать радиоприемник</span></p></body></html>"))
         self.pushButton.setText(_translate("MainWindow1", "Назад"))
         self.pushButton_2.setText(_translate("MainWindow1", "Ответ"))
-        self.label_10.setText(_translate("MainWindow1", "<html><head/><body><p><span style=\" font-size:20pt;\">Верно</span></p></body></html>"))
-
-"""
-if __name__ == 'task1':
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow1()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    def on_click():
-        print("OK")
-
-    ui.pushButton.clicked.connect(on_click)
-    sys.exit(app.exec_())
-"""
+        self.label_10.setText(_translate("MainWindow1", "<html><head/><body><p><span style=\" font-size:20pt;\">Текст</span></p></body></html>"))
+        self.label_11.setText(_translate("MainWindow1", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
+        self.label_12.setText(_translate("MainWindow1", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
+        self.label_13.setText(_translate("MainWindow1", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
+        self.label_14.setText(_translate("MainWindow1", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
+        self.label_15.setText(_translate("MainWindow1", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
+        self.label_16.setText(_translate("MainWindow1", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
+        self.label_17.setText(_translate("MainWindow1", "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"))
+        self.label_18.setText(_translate("MainWindow1", "┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+""))
+        self.label_19.setText(_translate("MainWindow1", "┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+""))
+        self.label_20.setText(_translate("MainWindow1", "┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃"))
+        self.label_21.setText(_translate("MainWindow1", "┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃\n"
+"┃"))
