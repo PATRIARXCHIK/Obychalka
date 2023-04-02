@@ -123,20 +123,17 @@ class Ui_MainWindow(object):
         self.comboBox.setItemText(3, _translate("MainWindow", "Энергия"))
         self.label.setToolTip(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'OpenSans\'; font-size:14pt; color:#000000; background-color:#ffffff;\">1.Среди фундаментальных понятий современной науки лишним является:</span></p></body></html>"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">1.Среди фундаментальных понятий современной науки лишним является:</span></p></body></html>"))
-        self.label_2.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">2. Информацию, отражающую истинное положение дел, называют:</span></p></body></html>\n"
-""))
+        self.label_2.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">2. Информацию, отражающую истинное положение дел, называют:</span></p></body></html>\n"""))
         self.comboBox_2.setItemText(0, _translate("MainWindow", "Актуальной"))
         self.comboBox_2.setItemText(1, _translate("MainWindow", "Объективной"))
         self.comboBox_2.setItemText(2, _translate("MainWindow", "Полной"))
         self.comboBox_2.setItemText(3, _translate("MainWindow", "Достоверной"))
-        self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style= \"font-size:12pt; \">3. Информацию, достаточную для решения поставленной задачи, называют:</span></p></body></html>\n"
-""))
+        self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style= \"font-size:12pt; \">3. Информацию, достаточную для решения поставленной задачи, называют:</span></p></body></html>\n"""))
         self.comboBox_4.setItemText(0, _translate("MainWindow", "Актуальной"))
         self.comboBox_4.setItemText(1, _translate("MainWindow", "Объективной"))
         self.comboBox_4.setItemText(2, _translate("MainWindow", "Полной"))
         self.comboBox_4.setItemText(3, _translate("MainWindow", "Достоверной"))
-        self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><span style=\"font-size:12pt;\">4. Визуальную информацию человек воспринимает органом:</span></p></body></html>\n"
-""))
+        self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><span style=\"font-size:12pt;\">4. Визуальную информацию человек воспринимает органом:</span></p></body></html>\n"""))
         self.comboBox_3.setItemText(0, _translate("MainWindow", "Слуха"))
         self.comboBox_3.setItemText(1, _translate("MainWindow", "Осязания"))
         self.comboBox_3.setItemText(2, _translate("MainWindow", "Зрения"))
