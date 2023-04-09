@@ -715,21 +715,52 @@ class MainWindow(QMainWindow):
         self.w2.show()
     def show_task2(self):
         self.w3 = task2()
-        answer = False
+
 
         _translate = QtCore.QCoreApplication.translate
 
         self.w3.pushButton_2.clicked.connect(self.show_main)
         self.w3.pushButton_2.clicked.connect(self.w3.close)
 
-        self.w3.show()
-        '''
         self.w3.pushButton.clicked.connect(self.check_answer)
-        def check_answer(self):
-            i = self.w3.comboBox.currentIndex()
-            if i == 1:
-                print('OJ')
-        '''
+        self.w3.pushButton.clicked.connect(self.w3.close)
+
+        self.w3.show()
+
+
+    def check_answer(self):
+        self.w3 = task2()
+        count = 0
+        _translate = QtCore.QCoreApplication.translate
+
+        if self.w3.pushButton.clicked:
+            if self.w3.comboBox.insertItem(1, _translate("MainWindow", "Электричество")):
+                count += 1
+            if self.w3.comboBox_2.insertItem(3, _translate("MainWindow", "Достоверной")):
+                count += 1
+            if self.w3.comboBox_3.insertItem(2, _translate("MainWindow", "Зрения")):
+                count += 1
+            if self.w3.comboBox_4.insertItem(2, _translate("MainWindow", "Полной")):
+                count += 1
+            if self.w3.comboBox_5.insertItem(3, _translate("MainWindow", "Стихи из сборника")):
+                count += 1
+
+            print(count)
+            if count == 5:
+                self.w3.label_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">Правильно</span></p></body></html>"))
+            else:
+                self.w3.label_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">Неправильно</span></p></body></html>"))
+
+        self.w3.pushButton_2.clicked.connect(self.show_main)
+        self.w3.pushButton_2.clicked.connect(self.w3.close)
+
+        self.w3.pushButton.clicked.connect(self.check_answer)
+        self.w3.pushButton.clicked.connect(self.w3.close)
+
+        self.w3.show()
+
+
+
 
     def show_task3(self):
         self.w4 = task3()
